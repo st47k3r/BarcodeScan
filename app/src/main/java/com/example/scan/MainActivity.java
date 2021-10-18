@@ -20,7 +20,7 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
-    private final static String SCAN_ACTION = "urovo.rcv.message";//扫描结束action
+    private final static String SCAN_ACTION = "urovo.rcv.message";
     
     private EditText showScanResult;
     private Button btn;
