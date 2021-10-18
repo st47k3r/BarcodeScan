@@ -3,9 +3,7 @@
 	android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="15" />
+
 <uses-permission android:name="android.permission.CALL_PHONE" />
 <uses-permission android:name="android.permission.VIBRATE" />
     <application
@@ -20,11 +18,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.scan.ScannerSettings"
-            android:label="@string/set_scanner_manager"
-            android:theme="@style/AppTheme">
         </activity>
     </application>
 
