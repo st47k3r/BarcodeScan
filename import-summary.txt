@@ -1,0 +1,79 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.gitignore
+* .idea\libraries\
+* .idea\libraries\dexedLibs.xml
+* .idea\libraries\libs.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* Android.mk
+* BarcodeScan.iml
+* out\
+* out\production\
+* out\production\BarcodeScan\
+* out\production\BarcodeScan\com\
+* out\production\BarcodeScan\com\example\
+* out\production\BarcodeScan\com\example\scan\
+* out\production\BarcodeScan\com\example\scan\BuildConfig.class
+* out\production\BarcodeScan\com\example\scan\MainActivity$1.class
+* out\production\BarcodeScan\com\example\scan\MainActivity$2.class
+* out\production\BarcodeScan\com\example\scan\MainActivity$3.class
+* out\production\BarcodeScan\com\example\scan\MainActivity$4.class
+* out\production\BarcodeScan\com\example\scan\MainActivity.class
+* out\production\BarcodeScan\com\example\scan\R$attr.class
+* out\production\BarcodeScan\com\example\scan\R$dimen.class
+* out\production\BarcodeScan\com\example\scan\R$drawable.class
+* out\production\BarcodeScan\com\example\scan\R$id.class
+* out\production\BarcodeScan\com\example\scan\R$layout.class
+* out\production\BarcodeScan\com\example\scan\R$menu.class
+* out\production\BarcodeScan\com\example\scan\R$string.class
+* out\production\BarcodeScan\com\example\scan\R$style.class
+* out\production\BarcodeScan\com\example\scan\R$xml.class
+* out\production\BarcodeScan\com\example\scan\R.class
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:28.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\platform_sdk_v1.0.2.jar => app\libs\platform_sdk_v1.0.2.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
