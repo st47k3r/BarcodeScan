@@ -2,7 +2,6 @@ package com.example.scan;
 
 import android.media.AudioManager;
 import android.media.SoundPool;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.app.Activity;
@@ -12,18 +11,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.device.ScanManager;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends Activity {
 
@@ -53,9 +46,6 @@ public class MainActivity extends Activity {
             mVibrator.vibrate(100);
 
             byte[] barcode = intent.getByteArrayExtra("barcode");
-            Uri barcode2 = intent.getData();
-            String barcode3 = intent.getDataString("barcode");
-            //byte[] barcode = intent.getByteArrayExtra("barcode");
             int barocodelen = intent.getIntExtra("length", 0);
             byte temp = intent.getByteExtra("barcodeType", (byte) 0);
             android.util.Log.i("debug", "----codetype--" + temp);
